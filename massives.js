@@ -1,3 +1,6 @@
+
+
+
 //МАССИВЫ
 
 // const a = [1, 2, 3];
@@ -122,11 +125,130 @@
 // console.log(maxNumber);
 
 
-//ПОИСК САМОГО БОЛЬШОГО ЧИСЛА
+//ОБЪЕДИНЕНИЕ СТРОК ИЗ МАССИВА
 //============================================
 
-const clients = ["Mango", "Ajax", "Poly", "Kiwi"];
-console.table(clients);
+// const clients = ["Mango", "Ajax", "Poly", "Kiwi"];
+// console.table(clients);
+
+// const string = clients.join(', ');
+// console.log(string);
+
+
+// const clients = ["Mango", "Ajax", "Poly", "Kiwi"];
+// console.table(clients);
+
+// let string = '';
+
+// for (const client of clients) {
+//   string += client + ',';
+// }
+// string = string.slice(0, string.length - 1);
+// console.log(string);
+
+
+// ЗАМЕНА РЕГИСТРА КАЖДОЙ БУКВЫ
+//============================================
+
+// const string = 'JavaScript';
+// const letters = string.split('');
+// let invertString = '';
+
+// for (const letter of letters) {
+//   letter === letter.toUpperCase()
+//   ? invertString += letter.toLowerCase() 
+//   : invertString += letter.toUpperCase();
+// }
+// console.log(string);
+// console.log(invertString);
+
+
+// СЛАГ ИЗ СЛОВ
+//============================================
+
+// const title = 'Top 10 benefits of React framework';
+// const normTitle = title.toLowerCase();
+
+// console.log(normTitle);
+
+// wordsSlug = title.toLowerCase().split(' ').join('-');
+// console.log(wordsSlug);
+
+// const title = 'Top 10 benefits of React framework';
+// const normTitle = title.toLowerCase();
+
+// console.log(normTitle);
+
+// words = normTitle.split(' ');
+// wordsSlug = words.join('-');
+// console.log(wordsSlug);
+
+
+// СУММА ЕЛЕМЕНТОВ ДВУХ МАССИВОВ
+// ===========================================
+
+// const array1 = [5, 10, 15, 20];
+// const array2 = [10, 20, 30];
+// let total = 0;
+
+// const numbers = array1.concat(array2);
+
+// console.log(numbers);
+
+// for (const number of numbers) {
+// total += number;
+// }
+// console.log(total);
+
+
+// УДАЛЕНИЕ ЕЛЕМЕНТОВ ПО ИНДЕКСУ
+// ===========================================
+
+// const cards = [
+//   'Карточка-1',
+//   'Карточка-2',
+//   'Карточка-3',
+//   'Карточка-4',
+//   'Карточка-5',
+// ];
+
+// console.table(cards);
+
+// const cardToRemove = 'Карточка-3';
+// const index = cards.indexOf(cardToRemove);
+
+// console.log(index);
+
+// cards.splice(index, 1);
+// console.table(cards);
+
+// cards.splice(2, 0, 20, 30, 40 );
+// console.table(cards);
+
+// 
+
+
+// const string = 'JavaScript';
+// const letters = string.split('');
+// let invertString = '';
+
+// for (const letter of letters) {
+//   if (letter === letter.toUpperCase()) {
+//     invertString += letter.toLowerCase();
+//   }
+//   else {
+//     invertString += letter.toUpperCase();
+//   }
+// }
+// console.log(string);
+// console.log(invertString);
+
+
+
+
+
+
+
 
 // const lastIndex = clients.length - 1;
 
