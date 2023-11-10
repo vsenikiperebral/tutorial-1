@@ -6054,7 +6054,7 @@ var preloadImages = exports.preloadImages = function preloadImages(selector) {
     imagesLoaded(document.querySelectorAll(selector), resolve);
   });
 };
-},{"imagesloaded":"../node_modules/imagesloaded/imagesloaded.js"}],"js/demo1/grid.js":[function(require,module,exports) {
+},{"imagesloaded":"../node_modules/imagesloaded/imagesloaded.js"}],"js/demo3/grid.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -6186,7 +6186,7 @@ var Grid = exports.default = /*#__PURE__*/function () {
   }]);
   return Grid;
 }();
-},{"gsap":"../node_modules/gsap/index.js","../utils":"js/utils.js"}],"js/demo1/index.js":[function(require,module,exports) {
+},{"gsap":"../node_modules/gsap/index.js","../utils":"js/utils.js"}],"js/demo3/index.js":[function(require,module,exports) {
 "use strict";
 
 var _cursor = _interopRequireDefault(require("../cursor"));
@@ -6202,7 +6202,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   var grid = new _grid.default(document.querySelector('.grid'));
 });
 var cursor = new _cursor.default(document.querySelector('.cursor'));
-},{"../cursor":"js/cursor.js","./grid":"js/demo1/grid.js","../utils":"js/utils.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"../cursor":"js/cursor.js","./grid":"js/demo3/grid.js","../utils":"js/utils.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -6371,5 +6371,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/demo1/index.js"], null)
-//# sourceMappingURL=/demo1.151408fb.js.map
+},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/demo3/index.js"], null)
+//# sourceMappingURL=/demo3.b516845c.js.map

@@ -12,3 +12,4 @@ preloadImages('.grid__item-img, .bigimg').then(() => {
 });
 
 const cursor = new Cursor(document.querySelector('.cursor'));
+
